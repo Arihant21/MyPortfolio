@@ -25,7 +25,7 @@ import Vatsalya from "./assets/education_logo/Vatsalya logo.png"
 // Project Section Logo's
 import MyPortfolio_img from './assets/work_logo/MyPortfolio_img.png';
 import GoFoody_img from './assets/work_logo/GoFoody_img.png';
-
+import CrudApp_img from './assets/work_logo/CrudApp_img.png';
 
 
 export const SkillsInfo = [
@@ -115,17 +115,17 @@ export const projects = [
       "Designed and developed a responsive personal portfolio using. Showcases projects, skills, and contact details with a clean UI and smooth user experience. Designed with responsive layouts, smooth animations, and modern UI components for a professional look",
     image: MyPortfolio_img,
     tags: ["React JS", "HTML", "CSS", "JavaScript"],
-    github: "",
-    webapp: "",
+    github: "https://github.com/Arihant21/MyPortfolio",
+    webapp: "https://myarihantportfolio.netlify.app/",
   },
   {
     id: 2,
     title: "CRUD Application",
     description:
       "Built a CRUD (Create, Read, Update, Delete) application using the MERN stack to manage user data efficiently. Implemented RESTful APIs, form handling, and database integration with MongoDB, ensuring a clean and responsive interface.",
-    image: "",
+    image: CrudApp_img,
     tags: ["React JS", "Node.js", "Express", "MongoDb", "JavaScript"],
-    github: "",
+    github: "https://github.com/Arihant21/CRUD-App",
     webapp: "",
   },
 ];  
